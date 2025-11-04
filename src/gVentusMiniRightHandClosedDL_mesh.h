@@ -1,0 +1,16 @@
+#ifndef GVENTUSMINIRIGHTHANDCLOSEDDL_MESH_H
+#define GVENTUSMINIRIGHTHANDCLOSEDDL_MESH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusMiniRightHandClosedDL_mesh_GlovesandBelt_ci4[];
+extern u64 gVentusMiniRightHandClosedDL_mesh_GlovesandBelt_pal_rgba16[];
+extern Vtx gVentusMiniRightHandClosedDL_mesh_gVentusMiniRightHandClosedDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusMiniRightHandClosedDL_mesh_gVentusMiniRightHandClosedDL_mesh_mesh_layer_Opaque_vtx_0[72];
+extern Gfx gVentusMiniRightHandClosedDL_mesh_gVentusMiniRightHandClosedDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusMiniRightHandClosedDL_mesh_f3dlite_material_037_layerOpaque[];
+extern Gfx mat_revert_gVentusMiniRightHandClosedDL_mesh_f3dlite_material_037_layerOpaque[];
+extern Gfx gVentusMiniRightHandClosedDL_mesh[];
+
+#endif

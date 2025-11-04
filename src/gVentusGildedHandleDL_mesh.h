@@ -1,0 +1,16 @@
+#ifndef GVENTUSGILDEDHANDLEDL_MESH_H
+#define GVENTUSGILDEDHANDLEDL_MESH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusGildedHandleDL_mesh_SWgripAMSCI4_ci8[];
+extern u64 gVentusGildedHandleDL_mesh_SWgripAMSCI4_pal_rgba16[];
+extern Vtx gVentusGildedHandleDL_mesh_gVentusGildedHandleDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusGildedHandleDL_mesh_gVentusGildedHandleDL_mesh_mesh_layer_Opaque_vtx_0[586];
+extern Gfx gVentusGildedHandleDL_mesh_gVentusGildedHandleDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusGildedHandleDL_mesh_f3dlite_material_066_layerOpaque[];
+extern Gfx mat_revert_gVentusGildedHandleDL_mesh_f3dlite_material_066_layerOpaque[];
+extern Gfx gVentusGildedHandleDL_mesh[];
+
+#endif

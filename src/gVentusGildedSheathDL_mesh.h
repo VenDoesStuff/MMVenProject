@@ -1,0 +1,16 @@
+#ifndef GVENTUSGILDEDSHEATHDL_MESH_H
+#define GVENTUSGILDEDSHEATHDL_MESH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusGildedSheathDL_mesh_podMSCI4_ci8[];
+extern u64 gVentusGildedSheathDL_mesh_podMSCI4_pal_rgba16[];
+extern Vtx gVentusGildedSheathDL_mesh_gVentusGildedSheathDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusGildedSheathDL_mesh_gVentusGildedSheathDL_mesh_mesh_layer_Opaque_vtx_0[264];
+extern Gfx gVentusGildedSheathDL_mesh_gVentusGildedSheathDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusGildedSheathDL_mesh_f3dlite_material_078_layerOpaque[];
+extern Gfx mat_revert_gVentusGildedSheathDL_mesh_f3dlite_material_078_layerOpaque[];
+extern Gfx gVentusGildedSheathDL_mesh[];
+
+#endif

@@ -1,0 +1,16 @@
+#ifndef GVENTUSKOKIRIHANDLEDL_MESH_H
+#define GVENTUSKOKIRIHANDLEDL_MESH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusKokiriHandleDL_mesh_SWgripA_ci8[];
+extern u64 gVentusKokiriHandleDL_mesh_SWgripA_pal_rgba16[];
+extern Vtx gVentusKokiriHandleDL_mesh_gVentusKokiriHandleDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusKokiriHandleDL_mesh_gVentusKokiriHandleDL_mesh_mesh_layer_Opaque_vtx_0[326];
+extern Gfx gVentusKokiriHandleDL_mesh_gVentusKokiriHandleDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusKokiriHandleDL_mesh_f3dlite_material_046_layerOpaque[];
+extern Gfx mat_revert_gVentusKokiriHandleDL_mesh_f3dlite_material_046_layerOpaque[];
+extern Gfx gVentusKokiriHandleDL_mesh[];
+
+#endif

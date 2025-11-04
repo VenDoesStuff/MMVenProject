@@ -1,0 +1,16 @@
+#ifndef GVENTUSGILDEDBLADEDL_MESH_H
+#define GVENTUSGILDEDBLADEDL_MESH_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusGildedBladeDL_mesh_SWMSBS3TC_ci4[];
+extern u64 gVentusGildedBladeDL_mesh_SWMSBS3TC_pal_rgba16[];
+extern Vtx gVentusGildedBladeDL_mesh_gVentusGildedBladeDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusGildedBladeDL_mesh_gVentusGildedBladeDL_mesh_mesh_layer_Opaque_vtx_0[55];
+extern Gfx gVentusGildedBladeDL_mesh_gVentusGildedBladeDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusGildedBladeDL_mesh_f3dlite_material_076_layerOpaque[];
+extern Gfx mat_revert_gVentusGildedBladeDL_mesh_f3dlite_material_076_layerOpaque[];
+extern Gfx gVentusGildedBladeDL_mesh[];
+
+#endif
