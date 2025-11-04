@@ -7,7 +7,7 @@
 extern u64 gVentusKokiriBladeDL_mesh_SWAS3TC_ci8[];
 extern u64 gVentusKokiriBladeDL_mesh_SWAS3TC_pal_rgba16[];
 extern Vtx gVentusKokiriBladeDL_mesh_gVentusKokiriBladeDL_mesh_mesh_layer_Opaque_vtx_cull[8];
-extern Vtx gVentusKokiriBladeDL_mesh_gVentusKokiriBladeDL_mesh_mesh_layer_Opaque_vtx_0[341];
+extern Vtx gVentusKokiriBladeDL_mesh_gVentusKokiriBladeDL_mesh_mesh_layer_Opaque_vtx_0[112];
 extern Gfx gVentusKokiriBladeDL_mesh_gVentusKokiriBladeDL_mesh_mesh_layer_Opaque_tri_0[];
 extern Gfx mat_gVentusKokiriBladeDL_mesh_f3dlite_material_058_layerOpaque[];
 extern Gfx mat_revert_gVentusKokiriBladeDL_mesh_f3dlite_material_058_layerOpaque[];

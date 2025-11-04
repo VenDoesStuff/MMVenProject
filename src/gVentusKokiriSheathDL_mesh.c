@@ -82,11 +82,11 @@ Gfx gVentusKokiriSheathDL_mesh_gVentusKokiriSheathDL_mesh_mesh_layer_Opaque_tri_
 };
 
 Gfx mat_gVentusKokiriSheathDL_mesh_f3dlite_material_062_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_SHADE | G_LIGHTING | G_FOG | G_SHADING_SMOOTH | G_ZBUFFER | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TP_PERSP | G_CD_MAGICSQ | G_PM_NPRIMITIVE | G_TD_CLAMP | G_CK_NONE | G_TT_RGBA16 | G_TL_TILE | G_AD_NOISE | G_TC_FILT | G_TF_BILERP | G_CYC_2CYCLE),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusKokiriSheathDL_mesh_podAS3TC_pal_rgba16),
@@ -102,7 +102,7 @@ Gfx mat_gVentusKokiriSheathDL_mesh_f3dlite_material_062_layerOpaque[] = {
 
 Gfx mat_revert_gVentusKokiriSheathDL_mesh_f3dlite_material_062_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
 	gsSPEndDisplayList(),
 };
 
