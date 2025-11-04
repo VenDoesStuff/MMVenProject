@@ -1379,16 +1379,16 @@ Gfx gVentusMiniSkel_bone012_gLinkChildCollarLimb_mesh_layer_Opaque_tri_0[] = {
 };
 
 Vtx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_vtx_0[10] = {
-	{{ {172, -291, 118}, 0, {900, 168}, {6, 163, 86, 255} }},
-	{{ {-83, -374, 31}, 0, {734, 156}, {169, 186, 59, 255} }},
-	{{ {-21, -427, -182}, 0, {734, 296}, {210, 175, 170, 255} }},
-	{{ {169, -216, -136}, 0, {900, 285}, {38, 160, 182, 255} }},
+	{{ {42, -224, -1}, 0, {900, 168}, {252, 165, 89, 255} }},
+	{{ {-147, -286, -65}, 0, {734, 156}, {144, 211, 40, 255} }},
+	{{ {-21, -427, -182}, 0, {734, 296}, {233, 144, 200, 255} }},
+	{{ {169, -216, -136}, 0, {900, 285}, {26, 143, 205, 255} }},
 	{{ {170, 2, -217}, 0, {844, 359}, {213, 86, 173, 255} }},
 	{{ {156, 15, -251}, 0, {900, 343}, {12, 16, 131, 255} }},
-	{{ {144, 230, -108}, 0, {900, 285}, {12, 113, 200, 255} }},
-	{{ {-42, 291, -160}, 0, {734, 296}, {187, 64, 171, 255} }},
-	{{ {144, 214, 149}, 0, {900, 168}, {241, 84, 94, 255} }},
-	{{ {-102, 280, 51}, 0, {734, 156}, {160, 70, 44, 255} }},
+	{{ {144, 230, -108}, 0, {900, 285}, {251, 123, 224, 255} }},
+	{{ {-42, 291, -160}, 0, {734, 296}, {210, 102, 196, 255} }},
+	{{ {21, 148, 22}, 0, {900, 168}, {236, 90, 88, 255} }},
+	{{ {-161, 197, -51}, 0, {734, 156}, {138, 33, 32, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_tri_0[] = {
@@ -1401,12 +1401,12 @@ Gfx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_tri_0[]
 };
 
 Vtx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_vtx_1[6] = {
-	{{ {172, -291, 118}, 0, {-17, 303}, {6, 163, 86, 255} }},
-	{{ {8, -16, 131}, 0, {536, -181}, {151, 250, 72, 255} }},
-	{{ {-83, -374, 31}, 0, {-24, -177}, {169, 186, 59, 255} }},
-	{{ {158, -12, 176}, 0, {561, 369}, {231, 250, 124, 255} }},
-	{{ {144, 214, 149}, 0, {997, 386}, {241, 84, 94, 255} }},
-	{{ {-102, 280, 51}, 0, {1004, -136}, {160, 70, 44, 255} }},
+	{{ {42, -224, -1}, 0, {-17, 303}, {252, 165, 89, 255} }},
+	{{ {8, -16, 131}, 0, {536, -181}, {170, 255, 93, 255} }},
+	{{ {-147, -286, -65}, 0, {-24, -177}, {144, 211, 40, 255} }},
+	{{ {158, -12, 176}, 0, {561, 369}, {220, 254, 122, 255} }},
+	{{ {21, 148, 22}, 0, {997, 386}, {236, 90, 88, 255} }},
+	{{ {-161, 197, -51}, 0, {1004, -136}, {138, 33, 32, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_tri_1[] = {
@@ -1417,15 +1417,15 @@ Gfx gVentusMiniSkel_bone013_gLinkChildLeftshoulderLimb_mesh_layer_Opaque_tri_1[]
 };
 
 Vtx gVentusMiniSkel_bone014_gLinkChildLeftForearmLimb_mesh_layer_Opaque_vtx_0[9] = {
-	{{ {65, -220, 130}, 0, {-18, 1254}, {243, 159, 80, 255} }},
+	{{ {65, -220, 130}, 0, {-18, 1254}, {239, 159, 80, 255} }},
 	{{ {54, 13, 210}, 0, {525, 1310}, {243, 248, 126, 255} }},
 	{{ {447, 31, 264}, 0, {496, 2087}, {59, 252, 113, 255} }},
 	{{ {463, -295, 184}, 0, {-18, 2061}, {57, 169, 73, 255} }},
-	{{ {39, 253, 159}, 0, {998, 1330}, {231, 91, 85, 255} }},
+	{{ {39, 253, 159}, 0, {998, 1330}, {228, 90, 85, 255} }},
 	{{ {426, 364, 225}, 0, {1000, 2066}, {46, 90, 78, 255} }},
-	{{ {158, -12, 176}, 0, {561, 369}, {231, 250, 124, 255} }},
-	{{ {172, -291, 118}, 0, {-17, 303}, {6, 163, 86, 255} }},
-	{{ {144, 214, 149}, 0, {997, 386}, {241, 84, 94, 255} }},
+	{{ {158, -12, 176}, 0, {561, 369}, {220, 254, 122, 255} }},
+	{{ {42, -224, -1}, 0, {-17, 303}, {252, 165, 89, 255} }},
+	{{ {21, 148, 22}, 0, {997, 386}, {236, 90, 88, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone014_gLinkChildLeftForearmLimb_mesh_layer_Opaque_tri_0[] = {
@@ -1440,16 +1440,16 @@ Gfx gVentusMiniSkel_bone014_gLinkChildLeftForearmLimb_mesh_layer_Opaque_tri_0[] 
 };
 
 Vtx gVentusMiniSkel_bone014_gLinkChildLeftForearmLimb_mesh_layer_Opaque_vtx_1[22] = {
-	{{ {169, -216, -136}, 0, {900, 285}, {38, 160, 182, 255} }},
-	{{ {172, -291, 118}, 0, {900, 168}, {6, 163, 86, 255} }},
+	{{ {169, -216, -136}, 0, {900, 285}, {26, 143, 205, 255} }},
+	{{ {42, -224, -1}, 0, {900, 168}, {252, 165, 89, 255} }},
 	{{ {156, 15, -251}, 0, {900, 343}, {12, 16, 131, 255} }},
-	{{ {144, 230, -108}, 0, {900, 285}, {12, 113, 200, 255} }},
-	{{ {144, 214, 149}, 0, {900, 168}, {241, 84, 94, 255} }},
-	{{ {65, -220, 130}, 0, {1199, 165}, {243, 159, 80, 255} }},
+	{{ {144, 230, -108}, 0, {900, 285}, {251, 123, 224, 255} }},
+	{{ {21, 148, 22}, 0, {900, 168}, {236, 90, 88, 255} }},
+	{{ {65, -220, 130}, 0, {1199, 165}, {239, 159, 80, 255} }},
 	{{ {68, -262, -148}, 0, {1199, 288}, {241, 148, 191, 255} }},
 	{{ {51, 43, -288}, 0, {1199, 360}, {236, 11, 131, 255} }},
 	{{ {39, 270, -115}, 0, {1199, 288}, {231, 112, 202, 255} }},
-	{{ {39, 253, 159}, 0, {1199, 165}, {231, 91, 85, 255} }},
+	{{ {39, 253, 159}, 0, {1199, 165}, {228, 90, 85, 255} }},
 	{{ {426, 387, -156}, 0, {1446, 310}, {47, 107, 206, 255} }},
 	{{ {426, 364, 225}, 0, {1446, 138}, {46, 90, 78, 255} }},
 	{{ {504, 181, 88}, 0, {1488, 195}, {92, 64, 60, 255} }},
@@ -1593,16 +1593,16 @@ Gfx gVentusMiniSkel_bone015_gLinkChildLeftHandLimb_mesh_layer_Opaque_tri_0[] = {
 };
 
 Vtx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_vtx_0[10] = {
-	{{ {-31, -438, 151}, 0, {734, 296}, {220, 164, 79, 255} }},
-	{{ {-92, -361, -57}, 0, {734, 156}, {163, 184, 207, 255} }},
-	{{ {161, -278, -159}, 0, {900, 168}, {253, 174, 159, 255} }},
-	{{ {160, -240, 103}, 0, {900, 285}, {37, 149, 57, 255} }},
+	{{ {-31, -438, 151}, 0, {734, 296}, {241, 139, 47, 255} }},
+	{{ {-153, -276, 45}, 0, {734, 156}, {140, 213, 228, 255} }},
+	{{ {34, -214, -30}, 0, {900, 168}, {244, 179, 155, 255} }},
+	{{ {160, -240, 103}, 0, {900, 285}, {22, 134, 28, 255} }},
 	{{ {170, -20, 216}, 0, {844, 359}, {142, 5, 200, 255} }},
 	{{ {157, -27, 250}, 0, {900, 343}, {17, 247, 126, 255} }},
-	{{ {153, 206, 139}, 0, {900, 285}, {15, 103, 72, 255} }},
-	{{ {-35, 281, 181}, 0, {734, 296}, {197, 55, 98, 255} }},
-	{{ {153, 227, -118}, 0, {900, 168}, {248, 97, 174, 255} }},
-	{{ {-96, 293, -30}, 0, {734, 156}, {158, 69, 215, 255} }},
+	{{ {153, 206, 139}, 0, {900, 285}, {1, 112, 60, 255} }},
+	{{ {-35, 281, 181}, 0, {734, 296}, {227, 98, 75, 255} }},
+	{{ {28, 158, 1}, 0, {900, 168}, {244, 101, 179, 255} }},
+	{{ {-156, 207, 66}, 0, {734, 156}, {138, 33, 221, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_tri_0[] = {
@@ -1615,12 +1615,12 @@ Gfx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_tri_0[
 };
 
 Vtx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_vtx_1[6] = {
-	{{ {161, -278, -159}, 0, {-17, 303}, {253, 174, 159, 255} }},
-	{{ {-92, -361, -57}, 0, {-24, -177}, {163, 184, 207, 255} }},
-	{{ {8, -1, -132}, 0, {536, -181}, {151, 8, 185, 255} }},
-	{{ {158, 8, -177}, 0, {561, 369}, {231, 11, 132, 255} }},
-	{{ {153, 227, -118}, 0, {997, 386}, {248, 97, 174, 255} }},
-	{{ {-96, 293, -30}, 0, {1004, -136}, {158, 69, 215, 255} }},
+	{{ {34, -214, -30}, 0, {-17, 303}, {244, 179, 155, 255} }},
+	{{ {-153, -276, 45}, 0, {-24, -177}, {140, 213, 228, 255} }},
+	{{ {8, -1, -132}, 0, {536, -181}, {170, 14, 164, 255} }},
+	{{ {158, 8, -177}, 0, {561, 369}, {220, 12, 135, 255} }},
+	{{ {28, 158, 1}, 0, {997, 386}, {244, 101, 179, 255} }},
+	{{ {-156, 207, 66}, 0, {1004, -136}, {138, 33, 221, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_tri_1[] = {
@@ -1631,15 +1631,15 @@ Gfx gVentusMiniSkel_bone016_gLinkChildRightshoulderLimb_mesh_layer_Opaque_tri_1[
 };
 
 Vtx gVentusMiniSkel_bone017_gLinkChildRightForearmLimb_mesh_layer_Opaque_vtx_0[9] = {
-	{{ {60, -224, -163}, 0, {-18, 1254}, {239, 172, 163, 255} }},
+	{{ {60, -224, -163}, 0, {-18, 1254}, {235, 172, 163, 255} }},
 	{{ {58, 18, -209}, 0, {525, 1310}, {243, 11, 130, 255} }},
-	{{ {52, 250, -125}, 0, {998, 1330}, {235, 103, 185, 255} }},
+	{{ {52, 250, -125}, 0, {998, 1330}, {231, 103, 185, 255} }},
 	{{ {451, 29, -262}, 0, {496, 2087}, {58, 10, 144, 255} }},
 	{{ {444, 353, -176}, 0, {1000, 2066}, {49, 98, 192, 255} }},
 	{{ {455, -305, -230}, 0, {-18, 2061}, {54, 178, 171, 255} }},
-	{{ {158, 8, -177}, 0, {561, 369}, {231, 11, 132, 255} }},
-	{{ {161, -278, -159}, 0, {-17, 303}, {253, 174, 159, 255} }},
-	{{ {153, 227, -118}, 0, {997, 386}, {248, 97, 174, 255} }},
+	{{ {158, 8, -177}, 0, {561, 369}, {220, 12, 135, 255} }},
+	{{ {34, -214, -30}, 0, {-17, 303}, {244, 179, 155, 255} }},
+	{{ {28, 158, 1}, 0, {997, 386}, {244, 101, 179, 255} }},
 };
 
 Gfx gVentusMiniSkel_bone017_gLinkChildRightForearmLimb_mesh_layer_Opaque_tri_0[] = {
@@ -1654,12 +1654,12 @@ Gfx gVentusMiniSkel_bone017_gLinkChildRightForearmLimb_mesh_layer_Opaque_tri_0[]
 };
 
 Vtx gVentusMiniSkel_bone017_gLinkChildRightForearmLimb_mesh_layer_Opaque_vtx_1[22] = {
-	{{ {160, -240, 103}, 0, {900, 285}, {37, 149, 57, 255} }},
-	{{ {161, -278, -159}, 0, {900, 168}, {253, 174, 159, 255} }},
-	{{ {153, 206, 139}, 0, {900, 285}, {15, 103, 72, 255} }},
-	{{ {153, 227, -118}, 0, {900, 168}, {248, 97, 174, 255} }},
+	{{ {160, -240, 103}, 0, {900, 285}, {22, 134, 28, 255} }},
+	{{ {34, -214, -30}, 0, {900, 168}, {244, 179, 155, 255} }},
+	{{ {153, 206, 139}, 0, {900, 285}, {1, 112, 60, 255} }},
+	{{ {28, 158, 1}, 0, {900, 168}, {244, 101, 179, 255} }},
 	{{ {157, -27, 250}, 0, {900, 343}, {17, 247, 126, 255} }},
-	{{ {60, -224, -163}, 0, {1199, 165}, {239, 172, 163, 255} }},
+	{{ {60, -224, -163}, 0, {1199, 165}, {235, 172, 163, 255} }},
 	{{ {61, -305, 105}, 0, {1199, 288}, {237, 141, 49, 255} }},
 	{{ {455, -305, -230}, 0, {1446, 138}, {54, 178, 171, 255} }},
 	{{ {456, -395, 146}, 0, {1446, 310}, {54, 149, 43, 255} }},
@@ -1670,7 +1670,7 @@ Vtx gVentusMiniSkel_bone017_gLinkChildRightForearmLimb_mesh_layer_Opaque_vtx_1[2
 	{{ {514, 151, -67}, 0, {1488, 195}, {95, 68, 206, 255} }},
 	{{ {444, 353, -176}, 0, {1446, 138}, {49, 98, 192, 255} }},
 	{{ {444, 322, 204}, 0, {1446, 310}, {51, 97, 64, 255} }},
-	{{ {52, 250, -125}, 0, {1199, 165}, {235, 103, 185, 255} }},
+	{{ {52, 250, -125}, 0, {1199, 165}, {231, 103, 185, 255} }},
 	{{ {52, 227, 149}, 0, {1199, 288}, {235, 104, 70, 255} }},
 	{{ {56, -22, 288}, 0, {1199, 360}, {237, 250, 125, 255} }},
 	{{ {450, -22, 368}, 0, {1446, 396}, {54, 252, 115, 255} }},
@@ -1805,43 +1805,43 @@ Vtx gVentusMiniSkel_bone020_gLinkChildTorsoLimb_mesh_layer_Opaque_vtx_0[72] = {
 	{{ {1215, -317, 0}, 0, {510, -5}, {0, 129, 0, 255} }},
 	{{ {1185, -206, 143}, 0, {600, 9}, {0, 178, 100, 255} }},
 	{{ {1185, -206, -143}, 0, {600, 9}, {0, 178, 156, 255} }},
-	{{ {929, -206, -143}, 0, {600, 106}, {32, 186, 155, 255} }},
-	{{ {858, -468, 0}, 0, {510, 156}, {52, 140, 255, 255} }},
-	{{ {929, -206, 143}, 0, {600, 106}, {38, 188, 100, 255} }},
+	{{ {929, -206, -143}, 0, {600, 106}, {25, 187, 152, 255} }},
+	{{ {858, -468, 0}, 0, {510, 156}, {53, 140, 255, 255} }},
+	{{ {929, -206, 143}, 0, {600, 106}, {30, 189, 104, 255} }},
 	{{ {1185, -166, 160}, 0, {610, 9}, {0, 242, 126, 255} }},
-	{{ {929, -166, 160}, 0, {610, 106}, {49, 233, 115, 255} }},
+	{{ {929, -166, 160}, 0, {610, 106}, {41, 228, 117, 255} }},
 	{{ {1185, -66, 143}, 0, {600, 9}, {0, 67, 108, 255} }},
-	{{ {929, -66, 143}, 0, {600, 106}, {28, 67, 104, 255} }},
+	{{ {929, -66, 143}, 0, {600, 106}, {23, 69, 104, 255} }},
 	{{ {926, 45, 0}, 0, {510, 107}, {96, 83, 2, 255} }},
 	{{ {1215, 45, 0}, 0, {510, -5}, {0, 127, 0, 255} }},
 	{{ {1185, -66, -143}, 0, {600, 9}, {0, 67, 148, 255} }},
-	{{ {929, -66, -143}, 0, {600, 106}, {33, 65, 152, 255} }},
-	{{ {929, -166, -160}, 0, {610, 106}, {48, 228, 142, 255} }},
+	{{ {929, -66, -143}, 0, {600, 106}, {28, 67, 152, 255} }},
+	{{ {929, -166, -160}, 0, {610, 106}, {40, 223, 140, 255} }},
 	{{ {1185, -166, -160}, 0, {610, 9}, {0, 242, 130, 255} }},
-	{{ {858, 198, 0}, 0, {510, 156}, {59, 113, 1, 255} }},
+	{{ {858, 198, 0}, 0, {510, 156}, {59, 112, 1, 255} }},
 	{{ {547, 318, 0}, 0, {510, 296}, {67, 108, 255, 255} }},
 	{{ {147, 231, -318}, 0, {709, 477}, {2, 83, 160, 255} }},
 	{{ {147, -166, -416}, 0, {770, 477}, {2, 242, 130, 255} }},
 	{{ {147, -323, -318}, 0, {709, 477}, {255, 162, 171, 255} }},
 	{{ {547, -509, 0}, 0, {510, 296}, {31, 133, 1, 255} }},
-	{{ {-96, 293, -30}, 0, {734, 156}, {158, 69, 215, 255} }},
-	{{ {8, -1, -132}, 0, {821, 138}, {151, 8, 185, 255} }},
-	{{ {-92, -361, -57}, 0, {734, 156}, {163, 184, 207, 255} }},
-	{{ {-31, -438, 151}, 0, {734, 296}, {220, 164, 79, 255} }},
+	{{ {-156, 207, 66}, 0, {734, 156}, {138, 33, 221, 255} }},
+	{{ {8, -1, -132}, 0, {821, 138}, {170, 14, 164, 255} }},
+	{{ {-153, -276, 45}, 0, {734, 156}, {140, 213, 228, 255} }},
+	{{ {-31, -438, 151}, 0, {734, 296}, {241, 139, 47, 255} }},
 	{{ {170, -20, 216}, 0, {844, 359}, {142, 5, 200, 255} }},
-	{{ {-35, 281, 181}, 0, {734, 296}, {197, 55, 98, 255} }},
-	{{ {-42, 291, -160}, 0, {734, 296}, {187, 64, 171, 255} }},
-	{{ {-102, 280, 51}, 0, {734, 156}, {160, 70, 44, 255} }},
-	{{ {8, -16, 131}, 0, {821, 138}, {151, 250, 72, 255} }},
-	{{ {8, -16, 131}, 0, {821, 138}, {151, 250, 72, 255} }},
-	{{ {-83, -374, 31}, 0, {734, 156}, {169, 186, 59, 255} }},
-	{{ {-21, -427, -182}, 0, {734, 296}, {210, 175, 170, 255} }},
-	{{ {-42, 291, -160}, 0, {734, 296}, {187, 64, 171, 255} }},
+	{{ {-35, 281, 181}, 0, {734, 296}, {227, 98, 75, 255} }},
+	{{ {-42, 291, -160}, 0, {734, 296}, {210, 102, 196, 255} }},
+	{{ {-161, 197, -51}, 0, {734, 156}, {138, 33, 32, 255} }},
+	{{ {8, -16, 131}, 0, {821, 138}, {170, 255, 93, 255} }},
+	{{ {8, -16, 131}, 0, {821, 138}, {170, 255, 93, 255} }},
+	{{ {-147, -286, -65}, 0, {734, 156}, {144, 211, 40, 255} }},
+	{{ {-21, -427, -182}, 0, {734, 296}, {233, 144, 200, 255} }},
+	{{ {-42, 291, -160}, 0, {734, 296}, {210, 102, 196, 255} }},
 	{{ {170, 2, -217}, 0, {844, 359}, {213, 86, 173, 255} }},
-	{{ {929, -66, 143}, 0, {600, 106}, {28, 67, 104, 255} }},
-	{{ {858, 198, 0}, 0, {510, 156}, {59, 113, 1, 255} }},
+	{{ {929, -66, 143}, 0, {600, 106}, {23, 69, 104, 255} }},
+	{{ {858, 198, 0}, 0, {510, 156}, {59, 112, 1, 255} }},
 	{{ {926, 45, 0}, 0, {510, 107}, {96, 83, 2, 255} }},
-	{{ {929, -66, -143}, 0, {600, 106}, {33, 65, 152, 255} }},
+	{{ {929, -66, -143}, 0, {600, 106}, {28, 67, 152, 255} }},
 	{{ {547, 318, 0}, 0, {510, 296}, {67, 108, 255, 255} }},
 	{{ {147, 231, 318}, 0, {709, 477}, {2, 83, 96, 255} }},
 	{{ {147, 372, 0}, 0, {510, 477}, {230, 124, 1, 255} }},
@@ -2032,11 +2032,11 @@ Gfx gVentusMiniSkel_bone020_gLinkChildTorsoLimb_mesh_layer_Opaque_tri_1[] = {
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_038_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_SweaterMain_pal_rgba16),
@@ -2052,16 +2052,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_038_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_038_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_037_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_GlovesandBelt_pal_rgba16),
@@ -2077,16 +2077,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_037_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_037_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_045_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_LegsandBoots_pal_rgba16),
@@ -2102,16 +2102,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_045_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_045_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_043_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_Skin_pal_rgba16),
@@ -2127,16 +2127,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_043_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_043_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_042_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TT_NONE | G_TF_BILERP | G_CD_MAGICSQ | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, 0x08000000),
@@ -2149,16 +2149,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_042_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_042_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_044_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TT_NONE | G_TF_BILERP | G_CD_MAGICSQ | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TT_NONE | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b_LOAD_BLOCK, 1, 0x09000000),
@@ -2171,16 +2171,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_044_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_044_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_041_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_HairandEars_pal_rgba16),
@@ -2196,16 +2196,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_041_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_041_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_Lockettex_pal_rgba16),
@@ -2221,16 +2221,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_040_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_ArmSymbol_pal_rgba16),
@@ -2246,16 +2246,16 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_040_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_040_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_039_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_SHADING_SMOOTH | G_SHADE | G_LIGHTING | G_CULL_BACK),
+	gsSPLoadGeometryMode(G_FOG | G_ZBUFFER | G_LIGHTING | G_CULL_BACK | G_SHADE | G_SHADING_SMOOTH),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
-	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_CYC_2CYCLE | G_TP_PERSP | G_TL_TILE | G_TC_FILT | G_AD_NOISE | G_TF_BILERP | G_CD_MAGICSQ | G_TT_RGBA16 | G_PM_NPRIMITIVE | G_TD_CLAMP),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE | G_RM_FOG_SHADE_A),
+	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CK_NONE | G_PM_NPRIMITIVE | G_AD_NOISE | G_TT_RGBA16 | G_TP_PERSP | G_CD_MAGICSQ | G_TL_TILE | G_TF_BILERP | G_CYC_2CYCLE | G_TC_FILT | G_TD_CLAMP),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_AC_NONE | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetPrimColor(0, 0, 255, 255, 255, 255),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMiniSkel_SweaterSub_pal_rgba16),
@@ -2271,7 +2271,7 @@ Gfx mat_gVentusMiniSkel_f3dlite_material_039_layerOpaque[] = {
 
 Gfx mat_revert_gVentusMiniSkel_f3dlite_material_039_layerOpaque[] = {
 	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_AC_NONE | G_RM_AA_ZB_OPA_SURF | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL),
 	gsSPEndDisplayList(),
 };
 
