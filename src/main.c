@@ -37,7 +37,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVen() {
     PlayerModelManager_setDisplayList(h, PMM_DL_FPS_LFOREARM, gVentusMiniSkel_bone014_gLinkChildLeftForearmLimb_mesh_layer_Opaque);
 }
 	
-	PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenKokiri() {
+PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenKokiri() {
 	
 	PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenKokiri", PMM_MODEL_TYPE_SWORD_KOKIRI);
 	
@@ -48,7 +48,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVen() {
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_KOKIRI_SHEATH, gVentusKokiriSheathDL_mesh);
 }
 
-	PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGilded() {
+PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGilded() {
 	
 	PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenGilded", PMM_MODEL_TYPE_SWORD_GILDED);
 	
@@ -59,7 +59,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVen() {
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_SHEATH, gVentusGildedSheathDL_mesh);
 }
 
-	PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGFS() {
+PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGFS() {
 	
 	PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenGFS", PMM_MODEL_TYPE_SWORD_GREAT_FAIRY);
 	
