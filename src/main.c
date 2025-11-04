@@ -66,4 +66,4 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGFS() {
     PlayerModelManager_setDisplayName(h, "Norende Axe");
     PlayerModelManager_setAuthor(h, "VenDoesStuff");
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GREAT_FAIRY_BLADE, gVentusGFSDL_mesh);
-    }
+}
