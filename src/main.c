@@ -13,6 +13,10 @@
 #include "gVentusGildedHandleDL_mesh.h"
 #include "gVentusGildedSheathDL_mesh.h"
 #include "gVentusGFSDL_mesh.h"
+#include "gVentusHeroesDL_mesh.h"
+#include "gVentusMirrorDL_mesh.h"
+#include "gVentusMirrorRayDL.h"
+#include "gVentusMirrorRayBeamDL.h"
 
 extern TexturePtr eyeTextures[];
 extern TexturePtr mouthTextures[];
@@ -52,7 +56,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGilded() {
 	
 	PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenGilded", PMM_MODEL_TYPE_SWORD_GILDED);
 	
-    PlayerModelManager_setDisplayName(h, "Norende Rapier");
+    PlayerModelManager_setDisplayName(h, "Geneolgia Rapier");
     PlayerModelManager_setAuthor(h, "VenDoesStuff");
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_BLADE, gVentusGildedBladeDL_mesh);
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_HILT, gVentusGildedHandleDL_mesh);
@@ -63,7 +67,27 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenGFS() {
 	
 	PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenGFS", PMM_MODEL_TYPE_SWORD_GREAT_FAIRY);
 	
-    PlayerModelManager_setDisplayName(h, "Norende Axe");
+    PlayerModelManager_setDisplayName(h, "Geneolgia Axe");
     PlayerModelManager_setAuthor(h, "VenDoesStuff");
     PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GREAT_FAIRY_BLADE, gVentusGFSDL_mesh);
+}
+
+PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenHerosShield() {
+
+    PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenHerosShield", PMM_MODEL_TYPE_SHIELD_HERO);
+
+    PlayerModelManager_setDisplayName(h, "Norende Wooden Shield");
+    PlayerModelManager_setAuthor(h, "VenDoesStuff");
+    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_HERO, gVentusHeroesDL_mesh);
+}
+
+PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenMirrorShield() {
+
+    PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenMirrorShield", PMM_MODEL_TYPE_SHIELD_MIRROR);
+
+    PlayerModelManager_setDisplayName(h, "Geneolgia Shield");
+    PlayerModelManager_setAuthor(h, "VenDoesStuff");
+    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR, gVentusMirrorDL_mesh);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR_RAY, gVentusMirrorRayDL);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR_RAY_BEAM, gVentusMirrorRayBeamDL);
 }
