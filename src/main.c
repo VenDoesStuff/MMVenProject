@@ -14,7 +14,7 @@
 #include "gVentusGildedSheathDL_mesh.h"
 #include "gVentusGFSDL_mesh.h"
 #include "gVentusHeroesDL_mesh.h"
-#include "gVentusMirrorDL_mesh.h"
+#include "gVentusMirrorDL.h"
 #include "gVentusMirrorRayDL.h"
 #include "gVentusMirrorRayBeamDL.h"
 
@@ -87,7 +87,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void registerVenMirrorShield() {
 
     PlayerModelManager_setDisplayName(h, "Geneolgia Shield");
     PlayerModelManager_setAuthor(h, "VenDoesStuff");
-    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR, gVentusMirrorDL_mesh);
+    PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR, gVentusMirrorDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR_RAY, gVentusMirrorRayDL);
     PlayerModelManager_setDisplayList(h, PMM_DL_SHIELD_MIRROR_RAY_BEAM, gVentusMirrorRayBeamDL);
 }
