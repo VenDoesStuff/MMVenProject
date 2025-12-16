@@ -25,34 +25,34 @@ u64 gVentusMirrorRayDL_shmref_pal_rgba16[] = {
 };
 
 Vtx gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_vtx_cull[8] = {
-	{{ {-1231, -694, 117}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-1231, -694, 120}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-1231, 815, 120}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {-1231, 815, 117}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {779, -694, 117}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {779, -694, 120}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {779, 815, 120}, 0, {0, 0}, {0, 0, 0, 0} }},
-	{{ {779, 815, 117}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1152, -755, -1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1152, -755, 1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1152, 755, 1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {-1152, 755, -1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {859, -755, -1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {859, -755, 1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {859, 755, 1}, 0, {0, 0}, {0, 0, 0, 0} }},
+	{{ {859, 755, -1}, 0, {0, 0}, {0, 0, 0, 0} }},
 };
 
 Vtx gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_vtx_0[17] = {
-	{{ {733, 313, 119}, 0, {635, -45}, {255, 255, 255, 255} }},
-	{{ {779, 58, 119}, 0, {497, -72}, {255, 255, 255, 255} }},
-	{{ {0, 60, 118}, 0, {491, 354}, {255, 255, 255, 255} }},
-	{{ {732, -196, 119}, 0, {357, -48}, {255, 255, 255, 255} }},
-	{{ {575, -463, 118}, 0, {210, 35}, {255, 255, 255, 255} }},
-	{{ {340, -621, 118}, 0, {121, 162}, {255, 255, 255, 255} }},
-	{{ {-2, -694, 117}, 0, {78, 349}, {255, 255, 255, 255} }},
-	{{ {-344, -619, 117}, 0, {116, 536}, {255, 255, 255, 255} }},
-	{{ {-729, -399, 117}, 0, {233, 749}, {255, 255, 255, 255} }},
-	{{ {-1034, -192, 117}, 0, {344, 918}, {255, 255, 255, 255} }},
-	{{ {-1231, 62, 117}, 0, {482, 1028}, {255, 255, 255, 255} }},
-	{{ {-1033, 316, 118}, 0, {622, 922}, {255, 255, 255, 255} }},
-	{{ {-726, 523, 118}, 0, {738, 756}, {255, 255, 255, 255} }},
-	{{ {-340, 742, 119}, 0, {861, 546}, {255, 255, 255, 255} }},
-	{{ {2, 815, 119}, 0, {904, 360}, {255, 255, 255, 255} }},
-	{{ {344, 740, 119}, 0, {866, 172}, {255, 255, 255, 255} }},
-	{{ {578, 581, 120}, 0, {781, 42}, {255, 255, 255, 255} }},
+	{{ {813, 252, 1}, 0, {635, -45}, {255, 255, 255, 255} }},
+	{{ {859, -2, 1}, 0, {497, -72}, {255, 255, 255, 255} }},
+	{{ {80, 0, 0}, 0, {491, 354}, {255, 255, 255, 255} }},
+	{{ {811, -256, 0}, 0, {357, -48}, {255, 255, 255, 255} }},
+	{{ {655, -523, 0}, 0, {210, 35}, {255, 255, 255, 255} }},
+	{{ {420, -681, 0}, 0, {121, 162}, {255, 255, 255, 255} }},
+	{{ {78, -755, -1}, 0, {78, 349}, {255, 255, 255, 255} }},
+	{{ {-264, -680, -1}, 0, {116, 536}, {255, 255, 255, 255} }},
+	{{ {-649, -460, -1}, 0, {233, 749}, {255, 255, 255, 255} }},
+	{{ {-955, -252, -1}, 0, {344, 918}, {255, 255, 255, 255} }},
+	{{ {-1152, 2, -1}, 0, {482, 1028}, {255, 255, 255, 255} }},
+	{{ {-953, 256, 0}, 0, {622, 922}, {255, 255, 255, 255} }},
+	{{ {-646, 463, 0}, 0, {738, 756}, {255, 255, 255, 255} }},
+	{{ {-260, 681, 0}, 0, {861, 546}, {255, 255, 255, 255} }},
+	{{ {82, 755, 1}, 0, {904, 360}, {255, 255, 255, 255} }},
+	{{ {423, 680, 1}, 0, {866, 172}, {255, 255, 255, 255} }},
+	{{ {658, 520, 1}, 0, {781, 42}, {255, 255, 255, 255} }},
 };
 
 Gfx gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_tri_0[] = {
@@ -68,12 +68,12 @@ Gfx gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_tri_0[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_gVentusMirrorRayDL_f3dlite_material_068_layerOpaque[] = {
+Gfx mat_gVentusMirrorRayDL_f3dlite_material_068[] = {
 	gsSPLoadGeometryMode(G_ZBUFFER | G_SHADE | G_SHADING_SMOOTH | G_FOG),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, TEXEL0, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED, 0, 0, 0, COMBINED),
 	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_CD_MAGICSQ | G_TD_CLAMP | G_TC_FILT | G_TP_PERSP | G_TF_BILERP | G_AD_NOISE | G_CYC_2CYCLE | G_CK_NONE | G_TL_TILE | G_PM_NPRIMITIVE | G_TT_RGBA16),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_FOG_SHADE_A | G_RM_AA_ZB_OPA_SURF2 | G_ZS_PIXEL | G_AC_NONE),
+	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 3, G_ZS_PIXEL | G_AC_NONE),
 	gsSPTexture(65535, 65535, 0, 0, 1),
 	gsDPSetTextureImage(G_IM_FMT_RGBA, G_IM_SIZ_16b, 1, gVentusMirrorRayDL_shmref_pal_rgba16),
 	gsDPSetTile(0, 0, 0, 256, 5, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0, G_TX_WRAP | G_TX_NOMIRROR, 0, 0),
@@ -86,20 +86,13 @@ Gfx mat_gVentusMirrorRayDL_f3dlite_material_068_layerOpaque[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_gVentusMirrorRayDL_f3dlite_material_068_layerOpaque[] = {
-	gsDPPipeSync(),
-	gsSPSetOtherMode(G_SETOTHERMODE_L, 0, 32, G_RM_AA_ZB_OPA_SURF | G_ZS_PIXEL | G_RM_AA_ZB_OPA_SURF2 | G_AC_NONE),
-	gsSPEndDisplayList(),
-};
-
 Gfx gVentusMirrorRayDL[] = {
 	gsSPClearGeometryMode(G_LIGHTING),
 	gsSPVertex(gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_vtx_cull + 0, 8, 0),
 	gsSPSetGeometryMode(G_LIGHTING),
 	gsSPCullDisplayList(0, 7),
-	gsSPDisplayList(mat_gVentusMirrorRayDL_f3dlite_material_068_layerOpaque),
+	gsSPDisplayList(mat_gVentusMirrorRayDL_f3dlite_material_068),
 	gsSPDisplayList(gVentusMirrorRayDL_gVentusMirrorRayDL_mesh_layer_Opaque_tri_0),
-	gsSPDisplayList(mat_revert_gVentusMirrorRayDL_f3dlite_material_068_layerOpaque),
 	gsSPEndDisplayList(),
 };
 
