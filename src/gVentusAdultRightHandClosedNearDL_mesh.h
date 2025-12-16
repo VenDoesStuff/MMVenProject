@@ -1,0 +1,14 @@
+#ifndef GVENTUSADULTRIGHTHANDCLOSEDNEARDL_MESH_H
+#define GVENTUSADULTRIGHTHANDCLOSEDNEARDL_MESH_H
+
+#include "ultra64.h"
+
+extern u64 gVentusAdultRightHandClosedNearDL_mesh_GlovesandBelt_ci4[];
+extern u64 gVentusAdultRightHandClosedNearDL_mesh_GlovesandBelt_pal_rgba16[];
+extern Vtx gVentusAdultRightHandClosedNearDL_mesh_gVentusAdultRightHandClosedNearDL_mesh_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusAdultRightHandClosedNearDL_mesh_gVentusAdultRightHandClosedNearDL_mesh_mesh_layer_Opaque_vtx_0[72];
+extern Gfx gVentusAdultRightHandClosedNearDL_mesh_gVentusAdultRightHandClosedNearDL_mesh_mesh_layer_Opaque_tri_0[];
+extern Gfx mat_gVentusAdultRightHandClosedNearDL_mesh_beltandgloves_layerOpaque[];
+extern Gfx gVentusAdultRightHandClosedNearDL_mesh_opaque_dl[];
+
+#endif
