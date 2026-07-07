@@ -20,11 +20,23 @@
 #include "gVentusMirrorRayDL.h"
 #include "gVentusMirrorRayBeamDL.h"
 #include "gVentusDekuSkel.h"
+#include "gVentusZoraSkel.h"
+#include "gVentusGoronSkel.h"
 #include "gVentusAdultSkel.h"
-#include "AdultHands.h"
+#include "gVentusGoronCurled.h"
+#include "gVentusGoronShieldArms.h"
+#include "ZVenFinShield.h"
+#include "ZVenLeftFin.h"
+#include "ZVenLeftFinSwim.h"
+#include "ZVenRightFin.h"
+#include "ZVenRightFinSwim.h"
+#include "ZVenFinRangL.h"
+#include "ZVenFinRangR.h"
 
 extern TexturePtr eyeTextures[];
 extern TexturePtr mouthTextures[];
+extern TexturePtr ZeyeTextures[];
+extern TexturePtr ZmouthTextures[];
 
 #define DECLARE_MATRIX_WRAPPED_DL(dlName, mtxName, dl)                  \
     Mtx mtxName;                                                        \
@@ -45,6 +57,7 @@ DECLARE_MATRIX_WRAPPED_DL(gVentusGildedSheathBigDL, gVentusGildedSheathBigMtx, g
 DECLARE_MATRIX_WRAPPED_DL(gVentusKokiriBladeBigDL, gVentusKokiriBladeBigMtx, gVentusKokiriBladeDL_mesh);
 DECLARE_MATRIX_WRAPPED_DL(gVentusKokiriHandleBigDL, gVentusKokiriHandleBigMtx, gVentusKokiriHandleDL_mesh);
 DECLARE_MATRIX_WRAPPED_DL(gVentusKokiriSheathBigDL, gVentusKokiriSheathBigMtx, gVentusKokiriSheathDL_mesh);
+DECLARE_MATRIX_WRAPPED_DL(gVentusRazorHandleBigDL, gVentusRazorHandleBigMtx, gVentusRazorHandleBigDL);
 
 PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void addVentustoModelManager() {
     PlayerModelManagerHandle childPack = PLAYERMODELMANAGER_REGISTER_MODEL("VenChildPack", PMM_MODEL_TYPE_MODEL_PACK);
@@ -82,7 +95,7 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void addVentustoModelManager() {
         PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenbig", PMM_MODEL_TYPE_ADULT);
 
         PlayerModelManager_setAuthor(h, "VenDoesStuff");
-        PlayerModelManager_setDisplayName(h, "Ventus (big)");
+        PlayerModelManager_setDisplayName(h, "Ventus (Big)");
         PlayerModelManager_setEyesTextures(h, eyeTextures);
         PlayerModelManager_setMouthTextures(h, mouthTextures);
 
@@ -107,6 +120,19 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void addVentustoModelManager() {
         PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_KOKIRI_BLADE, gVentusKokiriBladeDL_mesh);
         PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_KOKIRI_HILT, gVentusKokiriHandleDL_mesh);
         PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_KOKIRI_SHEATH, gVentusKokiriSheathDL_mesh);
+
+        PlayerModelManager_addHandleToPack(childPack, h);
+    }
+
+        // Razor Sword
+    {
+        PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenRazor", PMM_MODEL_TYPE_SWORD_RAZOR);
+        
+        PlayerModelManager_setDisplayName(h, "Norende Sword+");
+        PlayerModelManager_setAuthor(h, "VenDoesStuff");
+        // PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_BLADE, gVentusGildedBladeDL_mesh);
+        PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_RAZOR_HILT, gVentusKokiriHandleDL_mesh);
+        // PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_SHEATH, gVentusGildedSheathDL_mesh);
 
         PlayerModelManager_addHandleToPack(childPack, h);
     }
@@ -172,6 +198,45 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void addVentustoModelManager() {
         PlayerModelManager_setDisplayList(h, PMM_DL_LFIST, gVentusDekuSkel_bone015_gLinkDekuLeftHandLimb_mesh_layer_Opaque);
         PlayerModelManager_setDisplayList(h, PMM_DL_RFIST, gVentusDekuSkel_bone018_gLinkDekuRightHandLimb_mesh_layer_Opaque);
         PlayerModelManager_setDisplayList(h, PMM_DL_LHAND_BOTTLE, gVentusDekuSkel_bone015_gLinkDekuLeftHandLimb_mesh_layer_Opaque);
+    }
+
+        // Zora Model
+    {
+        PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenFish", PMM_MODEL_TYPE_ZORA);
+
+        PlayerModelManager_setAuthor(h, "VenDoesStuff");
+        PlayerModelManager_setDisplayName(h, "Ventus");
+        PlayerModelManager_setEyesTextures(h, ZeyeTextures);
+        PlayerModelManager_setMouthTextures(h, ZmouthTextures);
+
+        PlayerModelManager_setSkeleton(h, &gVentusZoraSkel);
+
+        PlayerModelManager_setDisplayList (h, PMM_DL_LFIN, ZVenLeftFin);
+        PlayerModelManager_setDisplayList (h, PMM_DL_RFIN, ZVenRightFin);
+        PlayerModelManager_setDisplayList (h, PMM_DL_LFIN_SWIM, ZVenLeftFinSwim);
+        PlayerModelManager_setDisplayList (h, PMM_DL_RFIN_SWIM, ZVenRightFinSwim);
+        PlayerModelManager_setDisplayList (h, PMM_DL_FIN_SHIELD, ZVenFinShield);
+        PlayerModelManager_setDisplayList (h, PMM_DL_LFIN_BOOMERANG, ZVenFinRangL);
+        PlayerModelManager_setDisplayList (h, PMM_DL_RFIN_BOOMERANG, ZVenFinRangR);
+
+    }
+
+        // Goron Model
+    {
+        PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenRock", PMM_MODEL_TYPE_GORON);
+
+        PlayerModelManager_setAuthor(h, "VenDoesStuff");
+        PlayerModelManager_setDisplayName(h, "Ventus");
+        // PlayerModelManager_setEyesTextures(h, GeyeTextures);
+        // PlayerModelManager_setMouthTextures(h, ZmouthTextures);
+
+        PlayerModelManager_setSkeleton(h, &gVentusGoronSkel);
+
+        PlayerModelManager_setDisplayList (h, PMM_DL_CURLED, gVentusGoronCurled);
+        PlayerModelManager_setDisplayList (h, PMM_DL_BODY_SHIELD_ARMS_AND_LEGS, gVentusGoronShieldArms);
+        // PlayerModelManager_setDisplayList (h, PMM_DL_BODY_SHIELD_HEAD, gVentusGoronSkel_bone010_gLinkGoronHeadLimb_mesh_layer_Opaque);
+        // PlayerModelManager_setDisplayList (h, PMM_DL_BODY_SHIELD_BODY, gVentusGoronSkel_bone020_gLinkGoronTorsoLimb_mesh_layer_Opaque);
+
     }
 
     // Adult Heros
@@ -244,4 +309,25 @@ PLAYERMODELMANAGER_CALLBACK_REGISTER_MODELS void addVentustoModelManager() {
         PlayerModelManager_addHandleToPack(adultPack, h);
     }
 
+    // Adult Razor
+    {
+        PlayerModelManagerHandle h = PLAYERMODELMANAGER_REGISTER_MODEL("mmVenRazorBig", PMM_MODEL_TYPE_SWORD_RAZOR);
+        
+        PlayerModelManager_setDisplayName(h, "Norende Sword+ (Big)");
+        PlayerModelManager_setAuthor(h, "VenDoesStuff");
+
+        guScale(&gVentusRazorHandleBigMtx, 1.25f, 1.25f, 1.25f); // scale matrix by 1.25 (approx. child > adult)
+
+
+        // PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_RAZOR_BLADE, gVentusRazorBladeDL_mesh);
+        PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_RAZOR_HILT, gVentusKokiriHandleBigDL);
+        // PlayerModelManager_setDisplayList(h, PMM_DL_SWORD_GILDED_SHEATH, gVentusRazorSheathDL_mesh);
+        guScale(&gVentusRazorHandleBigMtx, 1.25f, 1.25f, 1.25f); // scale matrix by 1.25 (approx. child > adult)
+
+        static Mtx swordRazorBackRepositionMtx;
+        guPosition(&swordRazorBackRepositionMtx, 0.f, 0.f, 0.f, 1.f, -715.f, -310.f, -50.f);
+        PlayerModelManager_setMatrix(h, PMM_MTX_SWORD_RAZOR_BACK, &swordRazorBackRepositionMtx);
+
+        PlayerModelManager_addHandleToPack(adultPack, h);
+    }
 }

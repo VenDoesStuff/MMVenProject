@@ -1,0 +1,33 @@
+#ifndef GVENTUSGORONSHIELDARMS_H
+#define GVENTUSGORONSHIELDARMS_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusGoronShieldArms_tex_002700_rgba16_png_002_rgba16[];
+extern u64 gVentusGoronShieldArms_GlovesandBelt_ci4[];
+extern u64 gVentusGoronShieldArms_GlovesandBelt_pal_rgba16[];
+extern u64 gVentusGoronShieldArms_tex_002600_ci8_png_002_ci8[];
+extern u64 gVentusGoronShieldArms_tex_002600_ci8_png_002_pal_rgba16[];
+extern u64 gVentusGoronShieldArms_LegsandBoots_ci4[];
+extern u64 gVentusGoronShieldArms_LegsandBoots_pal_rgba16[];
+extern Vtx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_vtx_0[18];
+extern Gfx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_tri_0[];
+extern Vtx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_vtx_1[249];
+extern Gfx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_tri_1[];
+extern Vtx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_vtx_2[167];
+extern Gfx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_tri_2[];
+extern Vtx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_vtx_3[249];
+extern Gfx gVentusGoronShieldArms_gVentusGoronShieldArms_mesh_layer_Opaque_tri_3[];
+extern Gfx mat_gVentusGoronShieldArms_f3dlite_material_013_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronShieldArms_f3dlite_material_013_layerOpaque[];
+extern Gfx mat_gVentusGoronShieldArms_BeltGloves_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronShieldArms_BeltGloves_layerOpaque[];
+extern Gfx mat_gVentusGoronShieldArms_f3dlite_material_016_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronShieldArms_f3dlite_material_016_layerOpaque[];
+extern Gfx mat_gVentusGoronShieldArms_Boots_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronShieldArms_Boots_layerOpaque[];
+extern Gfx gVentusGoronShieldArms[];
+
+#endif

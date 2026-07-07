@@ -2537,7 +2537,7 @@ Gfx gVentusMiniSkel_bone020_gLinkChildTorsoLimb_mesh_layer_Opaque_tri_2[] = {
 };
 
 Gfx mat_gVentusMiniSkel_f3dlite_material_038_layerOpaque[] = {
-	gsSPLoadGeometryMode(G_FOG | G_SHADE | G_CULL_BACK | G_ZBUFFER | G_SHADING_SMOOTH | G_LIGHTING),
+	gsSPLoadGeometryMode(G_FOG | G_SHADE | G_ZBUFFER | G_SHADING_SMOOTH | G_LIGHTING),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, 1, COMBINED, 0, PRIMITIVE, 0, 0, 0, 0, COMBINED),
 	gsSPSetOtherMode(G_SETOTHERMODE_H, 4, 20, G_TC_FILT | G_TL_TILE | G_TT_RGBA16 | G_CD_MAGICSQ | G_TF_BILERP | G_PM_NPRIMITIVE | G_AD_NOISE | G_CYC_2CYCLE | G_TP_PERSP | G_TD_CLAMP | G_CK_NONE),

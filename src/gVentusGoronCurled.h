@@ -1,0 +1,54 @@
+#ifndef GVENTUSGORONCURLED_H
+#define GVENTUSGORONCURLED_H
+
+#include "ultra64.h"
+#include "global.h"
+
+extern u64 gVentusGoronCurled_tex_00CFB8_ci8_png_001_ci8[];
+extern u64 gVentusGoronCurled_tex_00CFB8_ci8_png_001_pal_rgba16[];
+extern u64 gVentusGoronCurled_tex_00D0B8_rgba16_png_001_rgba16[];
+extern u64 gVentusGoronCurled_tex_00D4B8_rgba16_png_001_rgba16[];
+extern u64 gVentusGoronCurled_tex_00C6B8_ci8_png_001_ci8[];
+extern u64 gVentusGoronCurled_tex_00C6B8_ci8_png_001_pal_rgba16[];
+extern u64 gVentusGoronCurled_tex_004340_i8_png_001_i8[];
+extern u64 gVentusGoronCurled_LegsandBoots_ci4[];
+extern u64 gVentusGoronCurled_LegsandBoots_pal_rgba16[];
+extern u64 gVentusGoronCurled_tex_002D40_rgba16_png_001_rgba16[];
+extern u64 gVentusGoronCurled_HairandEars_ci8[];
+extern u64 gVentusGoronCurled_HairandEars_pal_rgba16[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_cull[8];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_0[113];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_0[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_1[18];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_1[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_2[11];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_2[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_3[138];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_3[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_4[65];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_4[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_5[102];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_5[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_6[42];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_6[];
+extern Vtx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_vtx_7[62];
+extern Gfx gVentusGoronCurled_gVentusGoronCurled_mesh_layer_Opaque_tri_7[];
+extern Gfx mat_gVentusGoronCurled_f3dlite_material_002_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_f3dlite_material_002_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_f3dlite_material_003_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_f3dlite_material_003_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_f3dlite_material_004_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_f3dlite_material_004_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_f3dlite_material_007_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_f3dlite_material_007_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_Metal_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_Metal_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_Boots_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_Boots_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_Hair_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_Hair_layerOpaque[];
+extern Gfx mat_gVentusGoronCurled_Ears_layerOpaque[];
+extern Gfx mat_revert_gVentusGoronCurled_Ears_layerOpaque[];
+extern Gfx gVentusGoronCurled[];
+
+#endif
